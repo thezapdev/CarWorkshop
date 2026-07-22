@@ -1,3 +1,6 @@
 <Solution>
+  <Project Path="CarWorkshop.Application\CarWorkshop.Application.csproj" Type="Classic C#" />
+  <Project Path="CarWorkshop.Domain\CarWorkshop.Domain.csproj" Type="Classic C#" />
+  <Project Path="CarWorkshop.Infrastucture\CarWorkshop.Infrastucture.csproj" Type="Classic C#" />
   <Project Path="CarWorkshop.MVC/CarWorkshop.MVC.csproj" />
 </Solution>

@@ -1,6 +1,37 @@
-﻿@{
+﻿@model List<Person>
+@{
     ViewData["Title"] = "Privacy Policy";
+    var currentYear = DateTime.Now.Year;
+    var dayOfWeek = DateTime.Now.DayOfWeek;
+    const string emailAddress = "adres@gmail.com";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<p>Use this page to detail your site's privacy.</p>
+
+
+<p>@currentYear</p>
+
+@if(dayOfWeek == DayOfWeek.Sunday || dayOfWeek == DayOfWeek.Saturday)
+{
+    <p>Today is a weekend!</p>
+}
+else
+{
+    <p>Today is a weekday.</p>
+}
+@switch (dayOfWeek)
+{
+    case DayOfWeek.Monday:
+        <p>Today is Monday.</p>
+        break;
+    default:
+        <p>Today is not Monday.</p>
+        break;
+}
+<a href="mailto:@emailAddress">@emailAddress</a>
+
+@foreach(Person person in Model)
+{
+    <p>@person.FirstName - @person.LastName</p>
+}

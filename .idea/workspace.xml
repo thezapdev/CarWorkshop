@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b55f9c5-a1c4-4cd8-a76f-4e6c8ea5b161" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CarWorkshop.Domain/Entities/CarWorkshop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarWorkshop.Domain/Entities/CarWorkshopContactDetails.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarWorkshop.Infrastucture/Extensions/ServiceCollectionExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarWorkshop.Infrastucture/Persistence/CarWorkshopDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarWorkshop.Infrastucture/Persistence/CarWorkshopDbContextFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarWorkshop.Infrastucture/Seeders/CarWorkshopSeeder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarWorkshop.MVC/Models/AboutModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarWorkshop.MVC/Models/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarWorkshop.MVC/Views/Home/About.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/CarWorkshop.MVC.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/CarWorkshop.MVC.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/CarWorkshop.MVC.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/bin/Debug/net10.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/CarWorkshop.MVC.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/CarWorkshop.MVC.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/CarWorkshop.MVC.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/CarWorkshop.MVC.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/CarWorkshop.MVC.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/CarWorkshop.MVC.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.RazorAssemblyInfo.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.RazorAssemblyInfo.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.RazorAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/CarWorkshop.MVC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/compressed/cdovj5qji3-{0}-s35ty4nyc5-s35ty4nyc5.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/compressed/w4ji1rwjq9-{0}-46ein0sx1k-46ein0sx1k.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rbcswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rbcswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/ref/CarWorkshop.MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/ref/CarWorkshop.MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/refint/CarWorkshop.MVC.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/refint/CarWorkshop.MVC.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rjimswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rjimswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/staticwebassets.build.json.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/Debug/net10.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.MVC/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.slnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarWorkshop.slnx.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CarWorkshop.slnx.DotSettings.user" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3Gp08gJTHyaZjzuncskST7rj3sK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/karol"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>
