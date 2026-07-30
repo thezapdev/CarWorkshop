@@ -1,4 +1,5 @@
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\bin\Debug\net8.0\CarWorkshop.Infrastucture.deps.json
+C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\bin\Debug\net8.0\CarWorkshop.Infrastucture.runtimeconfig.json
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\bin\Debug\net8.0\CarWorkshop.Infrastucture.dll
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\bin\Debug\net8.0\CarWorkshop.Infrastucture.pdb
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\bin\Debug\net8.0\CarWorkshop.Application.dll
@@ -15,6 +16,5 @@ C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\obj\Debug\net8.0\Ca
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\obj\Debug\net8.0\CarWorkshop.Infrastucture.dll
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\obj\Debug\net8.0\refint\CarWorkshop.Infrastucture.dll
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\obj\Debug\net8.0\CarWorkshop.Infrastucture.pdb
-C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\obj\Debug\net8.0\ref\CarWorkshop.Infrastucture.dll
-C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\bin\Debug\net8.0\CarWorkshop.Infrastucture.runtimeconfig.json
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\obj\Debug\net8.0\CarWorkshop.Infrastucture.genruntimeconfig.cache
+C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Infrastucture\obj\Debug\net8.0\ref\CarWorkshop.Infrastucture.dll
