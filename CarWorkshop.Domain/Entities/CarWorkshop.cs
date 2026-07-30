@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Identity;
+
 namespace CarWorkshop.Domain.Entities;
 
 public class CarWorkshop
@@ -9,7 +11,9 @@ public class CarWorkshop
     public CarWorkshopContactDetails ContactDetails { get; set; } = default!;
 
     public string EncodedName { get; private set; } = default!;
-
+    public string? CreatedById { get; set; }
+    public IdentityUser? CreatedBy { get; set; }
     public string? About { get; set; }
-        public void EncodeName() => EncodedName = Name.ToLower().Replace(" ", "-");
+    public List<CarWorkshopService> Services { get; set; } = new();
+    public void EncodeName() => EncodedName = Name.ToLower().Replace(" ", "-");
 }

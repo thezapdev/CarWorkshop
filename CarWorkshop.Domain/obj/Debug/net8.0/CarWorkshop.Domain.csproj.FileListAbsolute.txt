@@ -1,6 +1,7 @@
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Domain\bin\Debug\net8.0\CarWorkshop.Domain.deps.json
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Domain\bin\Debug\net8.0\CarWorkshop.Domain.dll
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Domain\bin\Debug\net8.0\CarWorkshop.Domain.pdb
+C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Domain\obj\Debug\net8.0\CarWorkshop.Domain.csproj.AssemblyReference.cache
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Domain\obj\Debug\net8.0\CarWorkshop.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Domain\obj\Debug\net8.0\CarWorkshop.Domain.AssemblyInfoInputs.cache
 C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Domain\obj\Debug\net8.0\CarWorkshop.Domain.AssemblyInfo.cs

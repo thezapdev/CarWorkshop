@@ -1,0 +1,51 @@
+@model CarWorkshop.Application.CarWorkshop.Commands.EditCarWorkshopCommand.EditCarWorkshopCommand
+<h1>Edit @Model.Name</h1>
+<hr/>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-controller="CarWorkshop" asp-route-encodedName="@Model.EncodedName" method="post">            <input type="hidden" asp-for="Name" />
+]            
+            <div class="form-group mb-3">
+                <label class="control-label"  asp-for="Description">Description</label>
+                <input type="text" class="form-control" id="Description"  asp-for="Description"/>
+                <span asp-validation-for="Description" class="text-danger" ></span>
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="About">About</label>
+                <input type="text" class="form-control" id="About" asp-for="About"/>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="PhoneNumber">PhoneNumber</label>
+                <input type="text" class="form-control" id="PhoneNumber" asp-for="PhoneNumber"/>
+                <span asp-validation-for="PhoneNumber" class="text-danger" ></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label"  asp-for="Street">Street</label>
+                <input type="text" class="form-control" id="Street" asp-for="Street"/>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="City">City</label>
+                <input type="text" class="form-control" id="City"  asp-for="City"/>
+            </div>
+            <div class="form-group mb-3">
+                <label class="control-label" asp-for="PostalCode">PostalCode</label>
+                <input type="text" class="form-control" id="PostalCode"  asp-for="PostalCode"/>
+            </div>
+
+            <div class="form-group mb-3">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+@{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
