@@ -62,7 +62,8 @@ ViewData["Title"] = "Details";
         </dd>
     </dl>
 </div>
-
+<h3>Services:</h3>
+<div id="service" class="row" data-encoded-name="@Model.EncodedName"></div>
 <div>
     @if (Model.IsEdible)
     {
@@ -71,3 +72,6 @@ ViewData["Title"] = "Details";
     }
     <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>
+@section Scripts {
+    <script src="~/js/CarWorkshop/Details.js"></script>
+}

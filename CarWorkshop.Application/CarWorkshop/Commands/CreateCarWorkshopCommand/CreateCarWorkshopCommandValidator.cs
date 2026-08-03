@@ -7,18 +7,15 @@ namespace CarWorkshop.Application.CarWorkshop;
 
 public class CreateCarWorkshopCommandValidator : AbstractValidator<CreateCarWorkshopCommand>
 {
-
-    
-
-
     public CreateCarWorkshopCommandValidator(ICarWorkshopRepository repository)
     {
         RuleFor(x => x.Name)
-            .NotEmpty().WithMessage("Name is required.").MinimumLength(2).WithMessage("Name should have atleast 2 characters.")
+            .NotEmpty().WithMessage("Name is required.").MinimumLength(2)
+            .WithMessage("Name should have atleast 2 characters.")
             .MaximumLength(20).WithMessage("Name should not exceed 20 characters.")
             .CustomAsync(async (name, context, cancellationToken) =>
             {
-               var existingCarworkshop = await repository.GetByName(name);
+                var existingCarworkshop = await repository.GetByName(name);
                 if (existingCarworkshop != null)
                 {
                     context.AddFailure($"{name} A car workshop with the same name already exists.");
@@ -32,6 +29,5 @@ public class CreateCarWorkshopCommandValidator : AbstractValidator<CreateCarWork
         RuleFor(x => x.PhoneNumber)
             .MinimumLength(8)
             .MaximumLength(12);
-
     }
 }

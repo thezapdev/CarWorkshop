@@ -22,10 +22,10 @@ public class CreateCarWorkshopCommandHandler : IRequestHandler<CreateCarWorkshop
     public async Task<Unit> Handle(CreateCarWorkshopCommand request, CancellationToken cancellationToken)
     {
         var currentUser = _userContext.GetCurrentUser();
-        if(currentUser == null || !currentUser.IsInRole("Owner"))
+        if(currentUser == null || !currentUser.IsInRole("Owner") || !currentUser.IsInRole("Moderator"))
         {
-            return Unit.Value;
-        }
+            throw new UnauthorizedAccessException("You are not authorized to create a car workshop.");
+        }   
         var carWorkshop = _mapper.Map<Domain.Entities.CarWorkshop>(request);
         carWorkshop.EncodeName();
         carWorkshop.CreatedById = currentUser.Id;
