@@ -68,6 +68,10 @@ namespace CarWorkshop.Infrastucture.Migrations
                     b.Property<int>("CarWorkshopId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Cost")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
