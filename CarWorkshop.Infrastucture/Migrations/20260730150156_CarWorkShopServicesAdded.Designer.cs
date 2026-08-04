@@ -25,7 +25,7 @@ namespace CarWorkshop.Infrastucture.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CarWorkshop.Domain.Entities.CarWorkshop", b =>
+            modelBuilder.Entity("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshop.Domain.Tests", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -60,7 +60,7 @@ namespace CarWorkshop.Infrastucture.Migrations
                     b.ToTable("CarWorkshops");
                 });
 
-            modelBuilder.Entity("CarWorkshop.Domain.Entities.CarWorkshopService", b =>
+            modelBuilder.Entity("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshopService", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -280,13 +280,13 @@ namespace CarWorkshop.Infrastucture.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("CarWorkshop.Domain.Entities.CarWorkshop", b =>
+            modelBuilder.Entity("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshop.Domain.Tests", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "CreatedBy")
                         .WithMany()
                         .HasForeignKey("CreatedById");
 
-                    b.OwnsOne("CarWorkshop.Domain.Entities.CarWorkshopContactDetails", "ContactDetails", b1 =>
+                    b.OwnsOne("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshopContactDetails", "ContactDetails", b1 =>
                         {
                             b1.Property<int>("CarWorkshopId")
                                 .HasColumnType("int");
@@ -320,15 +320,15 @@ namespace CarWorkshop.Infrastucture.Migrations
                     b.Navigation("CreatedBy");
                 });
 
-            modelBuilder.Entity("CarWorkshop.Domain.Entities.CarWorkshopService", b =>
+            modelBuilder.Entity("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshopService", b =>
                 {
-                    b.HasOne("CarWorkshop.Domain.Entities.CarWorkshop", "CarWorkshop")
+                    b.HasOne("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshop.Domain.Tests", "CarWorkshop.Domain.Tests")
                         .WithMany("Services")
                         .HasForeignKey("CarWorkshopId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("CarWorkshop");
+                    b.Navigation("CarWorkshop.Domain.Tests");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -382,7 +382,7 @@ namespace CarWorkshop.Infrastucture.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("CarWorkshop.Domain.Entities.CarWorkshop", b =>
+            modelBuilder.Entity("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshop.Domain.Tests", b =>
                 {
                     b.Navigation("Services");
                 });

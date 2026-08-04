@@ -25,7 +25,7 @@ namespace CarWorkshop.Infrastucture.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CarWorkshop.Domain.Entities.CarWorkshop", b =>
+            modelBuilder.Entity("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshop.Domain.Tests", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -55,9 +55,9 @@ namespace CarWorkshop.Infrastucture.Migrations
                     b.ToTable("CarWorkshops");
                 });
 
-            modelBuilder.Entity("CarWorkshop.Domain.Entities.CarWorkshop", b =>
+            modelBuilder.Entity("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshop.Domain.Tests", b =>
                 {
-                    b.OwnsOne("CarWorkshop.Domain.Entities.CarWorkshopContactDetails", "ContactDetails", b1 =>
+                    b.OwnsOne("CarWorkshop.Domain.Tests.Domain.Entities.CarWorkshopContactDetails", "ContactDetails", b1 =>
                         {
                             b1.Property<int>("CarWorkshopId")
                                 .HasColumnType("int");
