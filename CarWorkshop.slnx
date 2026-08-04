@@ -1,7 +1,11 @@
 <Solution>
+  <Folder Name="/Tests/">
+    <Project Path="CarWorkshop.Application.Tests\CarWorkshop.Application.Tests.csproj" Type="Classic C#" />
+    <Project Path="CarWorkshop.Domain.Tests\CarWorkshop.Domain.Tests.csproj" Type="Classic C#" />
+    <Project Path="CarWorkshop.MVC.Tests\CarWorkshop.MVC.Tests.csproj" Type="Classic C#" />
+  </Folder>
   <Project Path="CarWorkshop.Application\CarWorkshop.Application.csproj" Type="Classic C#" />
   <Project Path="CarWorkshop.Domain\CarWorkshop.Domain.csproj" Type="Classic C#" />
   <Project Path="CarWorkshop.Infrastucture\CarWorkshop.Infrastucture.csproj" Type="Classic C#" />
   <Project Path="CarWorkshop.MVC/CarWorkshop.MVC.csproj" />
-  <Project Path="CarWorkshop\CarWorkshop.csproj" Type="Classic C#" />
 </Solution>

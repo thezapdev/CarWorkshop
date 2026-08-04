@@ -8,5 +8,8 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ARazorPage_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003F17367ddeb3b959bda6d8fbc6369cd65a8e6ee9d124ec6f9b884b1182ce76a8_003FRazorPage_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AWebApplicationBuilder_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E2_003Fresharper_002Dhost_003FSourcesCache_003Ffc93f9613ce5192d12612ee1e55980988597b5d7aef66f40dd4b6898437a19_003FWebApplicationBuilder_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=cf0b8480_002D1a85_002D49df_002D9b51_002D847f2d7313d4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;CarWorkshop&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\Users\karol\Desktop\CarWorkshop\CarWorkshop" Presentation="&amp;lt;CarWorkshop&amp;gt;" /&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;Project Location="C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.Application.Tests" Presentation="&amp;lt;Tests&amp;gt;\&amp;lt;CarWorkshop.Application.Tests&amp;gt;" /&gt;&#xD;
+    &lt;Project Location="C:\Users\karol\Desktop\CarWorkshop\CarWorkshop.MVC.Tests" Presentation="&amp;lt;Tests&amp;gt;\&amp;lt;CarWorkshop.MVC.Tests&amp;gt;" /&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -32,7 +32,7 @@ public class CarWorkshopController : Controller
     }
 
     [HttpGet]
-    [Route("CarWorkshop/{encodedName}/Details")]
+    [Route("CarWorkshop.Domain.Tests/{encodedName}/Details")]
     public async Task<IActionResult> Details(string encodedName)
     {
         var dto = await _mediator.Send(new GetCarWorkshopByEncodedNameQuery(encodedName));
@@ -42,7 +42,7 @@ public class CarWorkshopController : Controller
 
     [HttpPost]
     [ValidateAntiForgeryToken]
-    [Route("CarWorkshop/{encodedName}/Edit")]
+    [Route("CarWorkshop.Domain.Tests/{encodedName}/Edit")]
     public async Task<IActionResult> Edit(string encodedName, EditCarWorkshopCommand command)
     {
         if (!ModelState.IsValid)
@@ -55,7 +55,7 @@ public class CarWorkshopController : Controller
     }
 
     [HttpGet]
-    [Route("CarWorkshop/{encodedName}/Edit")]
+    [Route("CarWorkshop.Domain.Tests/{encodedName}/Edit")]
     public async Task<IActionResult> Edit(string encodedName)
     {
         var dto = await _mediator.Send(new GetCarWorkshopByEncodedNameQuery(encodedName));
@@ -93,7 +93,7 @@ public class CarWorkshopController : Controller
     
     [HttpPost]
     [Authorize(Roles = "Owner")]
-    [Route("CarWorkshop/CarWorkshopService")]
+    [Route("CarWorkshop.Domain.Tests/CarWorkshopService")]
     public async Task<IActionResult> CreateCarWorkshopService(CreateCarWorkshopServiceCommand command)
     {
         if (!ModelState.IsValid)
@@ -107,7 +107,7 @@ public class CarWorkshopController : Controller
     }
     
     [HttpGet]
-    [Route("CarWorkshop/{encodedName}/CarWorkshopService")]
+    [Route("CarWorkshop.Domain.Tests/{encodedName}/CarWorkshopService")]
     public async Task<IActionResult> GetCarWorkshopService(string encodedName)
     {
         var data = await _mediator.Send(new GetCarWorkshopServicesQuery() {EncodedName = encodedName});
