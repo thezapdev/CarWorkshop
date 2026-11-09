@@ -23,7 +23,7 @@ public class CarWorkshopMappingProfile : Profile
                     PhoneNumber = src.PhoneNumber
                 }));
         CreateMap<Domain.Entities.CarWorkshop, CarWorkshopDto>()
-            .ForMember(dest => dest.IsEdible,
+            .ForMember(dest => dest.IsEditable,
                 opt => opt.MapFrom(src => user != null && (src.CreatedById == user.Id || user.IsInRole("Moderator"))))
             .ForMember(dest => dest.City, opt => opt.MapFrom(src => src.ContactDetails.City))
             .ForMember(dest => dest.Street, opt => opt.MapFrom(src => src.ContactDetails.Street))

@@ -20,7 +20,7 @@
                     <h5 class="card-title">@item.Name</h5>
                     <p class="card-text">@item.Description</p>
                     <a class="btn btn-primary" asp-action="Details" asp-controller="CarWorkshop" asp-route-encodedName="@item.EncodedName">Details</a>
-                    @if (item.IsEdible)
+                    @if (item.IsEditable)
                     {
                         <a class="btn btn-outline-secondary" asp-action="Edit" asp-controller="CarWorkshop" asp-route-encodedName="@item.EncodedName">Edit</a>
 

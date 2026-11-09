@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "coverlet.collector/6.0.0": {
@@ -6118,11 +6118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karol\\Desktop\\CarWorkshop\\CarWorkshop.Domain.Tests\\CarWorkshop.Domain.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\karol\\CarWorkshop\\CarWorkshop.Domain.Tests\\CarWorkshop.Domain.Tests.csproj",
       "projectName": "CarWorkshop.Domain.Tests",
-      "projectPath": "C:\\Users\\karol\\Desktop\\CarWorkshop\\CarWorkshop.Domain.Tests\\CarWorkshop.Domain.Tests.csproj",
+      "projectPath": "C:\\Users\\karol\\CarWorkshop\\CarWorkshop.Domain.Tests\\CarWorkshop.Domain.Tests.csproj",
       "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karol\\Desktop\\CarWorkshop\\CarWorkshop.Domain.Tests\\obj\\",
+      "outputPath": "C:\\Users\\karol\\CarWorkshop\\CarWorkshop.Domain.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karol\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6135,10 +6135,11 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karol\\Desktop\\CarWorkshop\\CarWorkshop.Domain\\CarWorkshop.Domain.csproj": {
-              "projectPath": "C:\\Users\\karol\\Desktop\\CarWorkshop\\CarWorkshop.Domain\\CarWorkshop.Domain.csproj"
+            "C:\\Users\\karol\\CarWorkshop\\CarWorkshop.Domain\\CarWorkshop.Domain.csproj": {
+              "projectPath": "C:\\Users\\karol\\CarWorkshop\\CarWorkshop.Domain\\CarWorkshop.Domain.csproj"
             }
           }
         }
@@ -6153,10 +6154,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "FluentAssertions": {
@@ -6194,15 +6196,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.26, 8.0.26]"
+            "version": "[8.0.32, 8.0.32]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.26, 8.0.26]"
+            "version": "[8.0.32, 8.0.32]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.26, 8.0.26]"
+            "version": "[8.0.32, 8.0.32]"
           }
         ],
         "frameworkReferences": {
@@ -6210,7 +6212,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

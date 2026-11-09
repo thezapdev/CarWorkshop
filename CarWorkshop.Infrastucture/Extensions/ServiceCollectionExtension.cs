@@ -1,6 +1,4 @@
-using CarWorkshop.Domain.Entities;
 using CarWorkshop.Domain.Interfaces;
-using CarWorkshop.Infrastucture.Migrations;
 using CarWorkshop.Infrastucture.Persistence;
 using CarWorkshop.Infrastucture.Repositories;
 using CarWorkshop.Infrastucture.Seeders;

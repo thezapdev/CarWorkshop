@@ -1,0 +1,22 @@
+# .NET
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.cache
+*.log
+
+# IDE
+.vs/
+.idea/
+.vscode/
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+coverage/
+coverage.*
+
+# OS
+.DS_Store
+Thumbs.db

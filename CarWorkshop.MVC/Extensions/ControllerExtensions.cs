@@ -6,9 +6,9 @@ namespace CarWorkshop.MVC.Extensions;
 
 public static class ControllerExtensions
 {
-    public static void SetNotifaction(this Controller controller, string type, string message)
+    public static void SetNotification(this Controller controller, string type, string message)
     {
-        var notifaction = new Notifaction(type, message);
+        var notifaction = new Notification(type, message);
         controller.TempData["Notification"] = JsonConvert.SerializeObject(notifaction);
     }
 }

@@ -1,8 +1,8 @@
-﻿@using Newtonsoft.Json
+@using Newtonsoft.Json
 @{
     var action = ViewContext.RouteData.Values["Action"]?.ToString();
     var controller = ViewContext.RouteData.Values["Controller"]?.ToString();
-    var notifaction = TempData["Notification"] !=null ? (Notifaction)JsonConvert.DeserializeObject<Notifaction>(TempData["Notification"].ToString()) : null;
+    var notifaction = TempData["Notification"] !=null ? (Notification)JsonConvert.DeserializeObject<Notification>(TempData["Notification"].ToString()) : null;
 }
 
 
