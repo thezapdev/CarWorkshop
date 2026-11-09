@@ -6,11 +6,9 @@ using CarWorkshop.Application.CarWorkshopService.Commands;
 using CarWorkshop.Application.Commands.CreateCarWorkshopCommand;
 using CarWorkshop.MVC.Extensions;
 using CarWorkshop.MVC.Models;
-using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 namespace CarWorkshop.MVC.Controllers;
 
@@ -59,7 +57,7 @@ public class CarWorkshopController : Controller
     public async Task<IActionResult> Edit(string encodedName)
     {
         var dto = await _mediator.Send(new GetCarWorkshopByEncodedNameQuery(encodedName));
-        if (!dto.IsEdible)
+        if (!dto.IsEditable)
         {
             return RedirectToAction("NoAccess", "Home");
         }
@@ -87,10 +85,10 @@ public class CarWorkshopController : Controller
 
 
         await _mediator.Send(command);
-        this.SetNotifaction("success", $"Car workshop: {command.Name}.");
+        this.SetNotification("success", $"Car workshop: {command.Name}.");
         return RedirectToAction(nameof(Index));
     }
-    
+
     [HttpPost]
     [Authorize(Roles = "Owner")]
     [Route("CarWorkshop.Domain.Tests/CarWorkshopService")]
@@ -105,14 +103,13 @@ public class CarWorkshopController : Controller
         await _mediator.Send(command);
         return Ok();
     }
-    
+
     [HttpGet]
     [Route("CarWorkshop.Domain.Tests/{encodedName}/CarWorkshopService")]
     public async Task<IActionResult> GetCarWorkshopService(string encodedName)
     {
-        var data = await _mediator.Send(new GetCarWorkshopServicesQuery() {EncodedName = encodedName});
+        var data = await _mediator.Send(new GetCarWorkshopServicesQuery { EncodedName = encodedName });
         return Ok(data);
-
     }
 }
 

@@ -65,7 +65,7 @@ ViewData["Title"] = "Details";
 <h3>Services:</h3>
 <div id="service" class="row" data-encoded-name="@Model.EncodedName"></div>
 <div>
-    @if (Model.IsEdible)
+    @if (Model.IsEditable)
     {
         <a asp-action="Edit" asp-route-encodedName="@Model.EncodedName" asp-controller="CarWorkshop" asp-action="Edit" class="btn btn-primary">Edit</a> 
 

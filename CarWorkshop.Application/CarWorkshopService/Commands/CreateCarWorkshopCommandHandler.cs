@@ -20,9 +20,9 @@ public class CreateCarWorkshopCommandHandler : IRequestHandler<CreateCarWorkshop
         var carWorkshop = await _carWorkshopRepository.GetByEncodedName(request.CarWorkshopEncodedName);
         var user = _userContext.GetCurrentUser();
 
-        var isEdible = user != null && carWorkshop.CreatedById == user.Id || user.IsInRole("Moderator");
+        var isEditable = user != null && carWorkshop.CreatedById == user.Id || user.IsInRole("Moderator");
        
-        if (!isEdible )
+        if (!isEditable )
         {
             return Unit.Value;
         }
